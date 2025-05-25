@@ -312,11 +312,19 @@ function mostrarMenores(arr) {
 
 mostrarMenores(alumnosSegundo)
 
+// funcion encontrar amigos
+// tiene que recibir un array de alumnos y devolver el nombre del alumno: y sus amigos
+// por ejemplo Tefi: german, valentina
 
 
-
-
-
+function mostrarAmigos(arr) {
+  for( const alumno of arr) {
+    
+      console.log("amigos:", alumno.amigos ); 
+    }
+  }
+  mostrarAmigos(alumnosSegundo)
+    
 
 
 
