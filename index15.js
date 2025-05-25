@@ -262,72 +262,78 @@ const alumnosSegundo = [
   
 ];
 
- function nombresDeAlumnos(arr) {
-     for(const alumno of arr){
-         console.log(alumno.nombre, alumno.apellido);
-             }
- }
- nombresDeAlumnos(alumnosSegundo)
- function mostrarAbanderado(arr) {
-     for(const alumno of arr){
-         if(alumno.esAbanderado){
-             console.log(alumno.nombre);
+//  function nombresDeAlumnos(arr) {
+//      for(const alumno of arr){
+//          console.log(alumno.nombre, alumno.apellido);
+//              }
+//  }
+//  nombresDeAlumnos(alumnosSegundo)
+//  function mostrarAbanderado(arr) {
+//      for(const alumno of arr){
+//          if(alumno.esAbanderado){
+//              console.log(alumno.nombre);
             
-         }
-     }
- }
- mostrarAbanderado(alumnosSegundo)
+//          }
+//      }
+//  }
+//  mostrarAbanderado(alumnosSegundo)
 
 
- function mostrarMasculinos(arr) {
-   for(const alumno of arr){
-     if(alumno.genero === "masculino"){
-       console.log(alumno.nombre, alumno.apellido);
+//  function mostrarMasculinos(arr) {
+//    for(const alumno of arr){
+//      if(alumno.genero === "masculino"){
+//        console.log(alumno.nombre, alumno.apellido);
       
-     }
-   }
- }
- mostrarMasculinos(alumnosSegundo)
+//      }
+//    }
+//  }
+//  mostrarMasculinos(alumnosSegundo)
   
-function mostrarfemeninos(arr) {
-  for( const alumno of arr){
-    if(alumno.genero === "femenino"){
-      console.log(alumno.nombre, alumno.apellido);
+// function mostrarfemeninos(arr) {
+//   for( const alumno of arr){
+//     if(alumno.genero === "femenino"){
+//       console.log(alumno.nombre, alumno.apellido);
       
-    }
-  }
-}
+//     }
+//   }
+// }
 
-mostrarfemeninos(alumnosSegundo)
+// mostrarfemeninos(alumnosSegundo)
 
 
-function mostrarMenores(arr) {
-  for( const alumno of arr){
-    if(alumno.edad < 14){
-      console.log(alumno.nombre, alumno.apellido);
+// function mostrarMenores(arr) {
+//   for( const alumno of arr){
+//     if(alumno.edad < 14){
+//       console.log(alumno.nombre, alumno.apellido);
             
-    }
-  }
-}
+//     }
+//   }
+// }
 
-mostrarMenores(alumnosSegundo)
+// mostrarMenores(alumnosSegundo)
 
 // funcion encontrar amigos
 // tiene que recibir un array de alumnos y devolver el nombre del alumno: y sus amigos
 // por ejemplo Tefi: german, valentina
 
 
+// function mostraramigos(arr){
+//   for( const alumno of arr){
+//     if(alumno.amigos){
+//       console.log("amigos:" + alumno.amigos);
+      
+//     }
+//   }
+// }
+// mostraramigos(alumnosSegundo)      
+   
+
 function mostrarAmigos(arr) {
-  for( const alumno of arr) {
-    
-      console.log("amigos:", alumno.amigos ); 
-    }
+  for (const alumno of arr) {
+    console.log("nombre:", alumno.nombre);
+    console.log("amigos:", alumno.amigos);
   }
-  mostrarAmigos(alumnosSegundo)
-    
+}
 
-
-
-
-
+mostrarAmigos(alumnosSegundo)
 
