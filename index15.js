@@ -249,6 +249,17 @@ const alumnosSegundo = [
     amigos: ["axel", "benjamin"],
     genero: "masculino",
   },
+    {
+    nombre: "Teffi",
+    apellido: "Sunday",
+    edad: 15,
+    curso: 2,
+    matricula: 14863532,
+    esAbanderado: false,
+    amigos: ["german", "valentina"],
+    genero: "femenino",
+  },
+  
 ];
 
  function nombresDeAlumnos(arr) {
