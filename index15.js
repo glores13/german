@@ -259,7 +259,6 @@ const alumnosSegundo = [
     amigos: ["german", "valentina"],
     genero: "femenino",
   },
-  
 ];
 
 //  function nombresDeAlumnos(arr) {
