@@ -249,7 +249,7 @@ const alumnosSegundo = [
     amigos: ["axel", "benjamin"],
     genero: "masculino",
   },
-    {
+  {
     nombre: "Teffi",
     apellido: "Sunday",
     edad: 15,
@@ -259,6 +259,7 @@ const alumnosSegundo = [
     amigos: ["german", "valentina"],
     genero: "femenino",
   },
+  
 ];
 
 //  function nombresDeAlumnos(arr) {
@@ -271,40 +272,38 @@ const alumnosSegundo = [
 //      for(const alumno of arr){
 //          if(alumno.esAbanderado){
 //              console.log(alumno.nombre);
-            
+
 //          }
 //      }
 //  }
 //  mostrarAbanderado(alumnosSegundo)
 
-
 //  function mostrarMasculinos(arr) {
 //    for(const alumno of arr){
 //      if(alumno.genero === "masculino"){
 //        console.log(alumno.nombre, alumno.apellido);
-      
+
 //      }
 //    }
 //  }
 //  mostrarMasculinos(alumnosSegundo)
-  
+
 // function mostrarfemeninos(arr) {
 //   for( const alumno of arr){
 //     if(alumno.genero === "femenino"){
 //       console.log(alumno.nombre, alumno.apellido);
-      
+
 //     }
 //   }
 // }
 
 // mostrarfemeninos(alumnosSegundo)
 
-
 // function mostrarMenores(arr) {
 //   for( const alumno of arr){
 //     if(alumno.edad < 14){
 //       console.log(alumno.nombre, alumno.apellido);
-            
+
 //     }
 //   }
 // }
@@ -315,17 +314,15 @@ const alumnosSegundo = [
 // tiene que recibir un array de alumnos y devolver el nombre del alumno: y sus amigos
 // por ejemplo Tefi: german, valentina
 
-
 // function mostraramigos(arr){
 //   for( const alumno of arr){
 //     if(alumno.amigos){
 //       console.log("amigos:" + alumno.amigos);
-      
+
 //     }
 //   }
 // }
-// mostraramigos(alumnosSegundo)      
-   
+// mostraramigos(alumnosSegundo)
 
 function mostrarAmigos(arr) {
   for (const alumno of arr) {
@@ -334,5 +331,36 @@ function mostrarAmigos(arr) {
   }
 }
 
-mostrarAmigos(alumnosSegundo)
+// mostrarAmigos(alumnosSegundo)
+
+function mostrarAmigosDeAlumnos(curso) {
+  for (const alumno of curso) {
+    const { nombre, amigos } = alumno;    
+    console.log(`los amigos de ${nombre} son: ${amigos[0]} y ${amigos[1]}`);
+
+  }
+}
+
+// mostrarAmigosDeAlumnos(alumnosSegundo);
+
+
+
+//funcion encontrar matricula de alumno y conlosogiar matricula 
+
+function mostrarMatricula(matriculas) {
+  for( const alumno of matriculas) {
+    const { nombre, matricula } = alumno;
+    console.log(`la matricula de ${nombre} es: ${matricula} `);
+    
+  }
+}
+
+mostrarMatricula(alumnosSegundo)
+
+
+
+
+
+
+
 
