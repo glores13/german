@@ -5,7 +5,9 @@ for (const estudiante of nombresDeEstudiantes) {
 
 const nombresDePeliculas = ["cars", "rango", "rapidosYfuriosos", "norbi", "jujutsuKaisen0", "titanic", "elConjuro" ,"chuckie","avatar", "matrix"];
 for (const pelicula of nombresDePeliculas) {
-  console.log(`Película: ${pelicula}`);
+  // console.log(`Película: ${pelicula}`);
+  console.log(`Pelicula: ${pelicula}`);
+  
 }
 
 const trabajos = ["albañil", "cientifico", "doctor", "bombero", "abogado", "inginiero", "comiquero", "animador", "editor", "programador"];
@@ -47,3 +49,7 @@ const animales = ["gorila", "gallina", "perro", "caballo", "gato", "raton", "con
 for (const animal of animales) {
   console.log(`Animal: ${animal}`);
 }
+
+const PrimerAnimal = animales[0]
+
+const SegundoAnimal = animales[1]
