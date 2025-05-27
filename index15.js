@@ -4,10 +4,11 @@ const alumnosSegundo = [
     apellido: "flores",
     edad: 13,
     curso: 2,
-    matricula: 52438508,
+    matricula: 52438432,
     esAbanderado: false,
     amigos: ["benjamin", "rodigo"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "benjamin",
@@ -18,6 +19,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["german", "leonardo", "rodrigo"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "rodrigo",
@@ -28,6 +30,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["german", "benjamin"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "leo",
@@ -38,6 +41,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["benjamin", "maite"],
     genero: "masculino",
+    nacionalidad: "argertino"
   },
   {
     nombre: "axel",
@@ -48,6 +52,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["lautaro", "dilan"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "dilan",
@@ -58,6 +63,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["axel", "dilan2"],
     genero: "masculino",
+    nacionalidad: "paraguayo"
   },
   {
     nombre: "maite",
@@ -68,6 +74,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["german", "benjamin", "leo"],
     genero: "femenino",
+    nacionalidad: "argentina"
   },
   {
     nombre: "agustin",
@@ -78,6 +85,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["axel", "lautaro"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "mariela",
@@ -88,6 +96,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["anabel", "german", "benjamin", "leonel"],
     genero: "femenino",
+    nacionalidad: "argentina"
   },
   {
     nombre: "anabel",
@@ -98,6 +107,8 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["mareiela"],
     genero: "femenino",
+    nacionalidad: "argentina"
+
   },
   {
     nombre: "rodrigo2",
@@ -108,6 +119,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["axel", "dilan2"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "pedro",
@@ -118,6 +130,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["juan", "patricio"],
     genero: "masculino",
+    nacionalidad: "uruguayo"
   },
   {
     nombre: "ezequiel",
@@ -128,6 +141,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["agostina", "german"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "agostina",
@@ -138,6 +152,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["german", "ezequiel"],
     genero: "femenino",
+    nacionalidad: "argentina"
   },
   {
     nombre: "facundo",
@@ -148,6 +163,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["dilan", "axel"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "leonel",
@@ -158,6 +174,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["patricio", "axel"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "patricio",
@@ -168,6 +185,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["juan", "pedro"],
     genero: "masculino",
+    nacionalidad: "boliviano"
   },
   {
     nombre: "juan",
@@ -178,6 +196,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["santiago", "julian"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "santiago",
@@ -188,6 +207,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["julian", "axel"],
     genero: "masculino",
+    nacionalidad: "argemtino"
   },
   {
     nombre: "julian",
@@ -198,6 +218,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["juan", "santiago"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "valentina",
@@ -208,6 +229,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["aime", "axel"],
     genero: "femenino",
+    nacionalidad: "argentina"
   },
   {
     nombre: "lautaro",
@@ -218,6 +240,8 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["axel", "thiago"],
     genero: "masculino",
+    nacionalidad: "argentino"
+
   },
   {
     nombre: "eduar",
@@ -228,6 +252,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["axel", "lautaro"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "leonel",
@@ -238,6 +263,7 @@ const alumnosSegundo = [
     esAbanderado: true,
     amigos: ["axel", "benjamin"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "thiago",
@@ -248,6 +274,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["axel", "benjamin"],
     genero: "masculino",
+    nacionalidad: "argentino"
   },
   {
     nombre: "Teffi",
@@ -258,6 +285,7 @@ const alumnosSegundo = [
     esAbanderado: false,
     amigos: ["german", "valentina"],
     genero: "femenino",
+    nacionalidad: "argentina"
   },
   
 ];
@@ -347,15 +375,17 @@ function mostrarAmigosDeAlumnos(curso) {
 
 //funcion encontrar matricula de alumno y conlosogiar matricula 
 
-function mostrarMatricula(matriculas) {
-  for( const alumno of matriculas) {
-    const { nombre, matricula } = alumno;
-    console.log(`la matricula de ${nombre} es: ${matricula} `);
-    
+function mostrarMatricula(nombresDeAlumno, alumnos) {
+  for( const alumno of alumnos) {
+    const { nombre, matricula} = alumno;
+    if(nombre === nombresDeAlumno){
+     console.log(matricula);
+    }
+   
   }
 }
 
-mostrarMatricula(alumnosSegundo)
+mostrarMatricula("doisaj", alumnosSegundo)
 
 
 
@@ -363,4 +393,48 @@ mostrarMatricula(alumnosSegundo)
 
 
 
+// crear una funcion que reciba por parametros el nombre y la lista y me devuelva la nacionalidad del alumno 
 
+// crear una funcion que reciba por parametro la matricula y la lista y me devuelva el nombre y el apellido del alumno  
+
+// crear una funcion que me diga el genero del alumno y lo que le voy a pasar es su matricula
+
+
+
+function encontrarNacionalidadDelAlumno(nombreDelAlumno, lista) {
+ for( const alumno of lista) {
+  const {nombre, nacionalidad} = alumno 
+  if(nombre === nombreDelAlumno){
+    console.log(nacionalidad);
+    
+  }
+}  
+}
+
+// encontrarNacionalidadDelAlumno("thiago", alumnosSegundo)
+
+
+function nombreYApellidoDelAlumno(matriculaDelAlumno, lista) {
+  for( const alumno of lista) {
+    const {nombre, apellido, matricula} = alumno
+    if (matricula === matriculaDelAlumno) {
+      console.log(nombre, apellido);
+      
+    }
+  }
+}
+
+nombreYApellidoDelAlumno(14863532, alumnosSegundo)
+
+
+function generoDelEstudiante(generoDelAlumno) {
+  for (const alumnno of generoDelAlumno) {
+    const {genero, matricula} = alumnno
+    if (genero === generoDelAlumno) {
+      console.log(matricula);
+      
+    } 
+  }
+}
+
+// generoDelEstudiante()
